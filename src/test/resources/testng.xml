@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumSuite">
+    <test name="PersonalDetailsTests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="com.mytestproject.tests.SingleShowTest"/>
+            <class name="com.automation.tests.RegisterTest"/>
+            <class name="com.automation.tests.BankDetailsTest"/>
+            <class name="com.automation.tests.BorrowerSignUpTest"/>
+            <class name="com.automation.tests.DocumentUploadTest"/>
+            <class name="com.automation.tests.InvestorSignUpTest"/>
+            <class name="com.automation.tests.KYCTest"/>
+            <class name="com.automation.tests.DashboardTest"/>
+            <class name="com.automation.tests.PersonalDetailsTest"/> <!-- Add PersonalDetailsTest -->
+        </classes>
+    </test>
+</suite>

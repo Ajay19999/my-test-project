@@ -1,10 +1,10 @@
-package com.example;
+package com.mytestproject.pages;
 
 /**
  * Hello world!
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
